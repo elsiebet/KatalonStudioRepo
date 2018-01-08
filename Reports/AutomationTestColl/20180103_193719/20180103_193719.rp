@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportCollectionEntity>
+   <description></description>
+   <name>20180103_193719</name>
+   <tag></tag>
+   <displayName>20180103_193719</displayName>
+   <reportItemDescriptions>
+      <ReportItemDescription>
+         <reportLocation>Reports/AutomationTest/20180103_193719</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <runConfigurationId>Firefox</runConfigurationId>
+         </runConfigDescription>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/AutomationTest/20180103_193720</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </runConfigDescription>
+      </ReportItemDescription>
+   </reportItemDescriptions>
+</ReportCollectionEntity>
