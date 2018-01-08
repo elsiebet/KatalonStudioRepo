@@ -1,20 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>AutomationTest</name>
+   <name>AutomationTestSuite1</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-01-03T19:37:20</lastRun>
+   <lastRun>2018-01-08T18:52:38</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>21951a4f-35cc-4d65-b840-cf4838364819</testSuiteGuid>
-   <testCaseLink>
-      <guid>d8446272-98fd-49f2-a881-d1629ba5f068</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/New Test Case</testCaseId>
-   </testCaseLink>
+   <testSuiteGuid>8eaf7b49-3c9c-486a-853f-521cbd4b2e67</testSuiteGuid>
 </TestSuiteEntity>

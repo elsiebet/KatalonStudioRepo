@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AutomationTestSuite1" time="0" tests="0" failures="0" errors="0">
+   <testsuite name="AutomationTestSuite1" tests="0" failures="0" errors="0" time="0" timestamp="2018-01-08 18:52:41" hostname="ENguli - LTTECH1550.safaricom.net" id="Test Suites/AutomationTestSuite1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\enguli\\git\\KatalonStudioRepo\\Reports\\AutomationTestSuite1\\20180108_185238"/>
+         <property name="logFiles" value="C:\\Users\\enguli\\git\\KatalonStudioRepo\\Reports\\AutomationTestSuite1\\20180108_185238\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ENguli - LTTECH1550.safaricom.net"/>
+         <property name="hostAddress" value="192.168.43.131"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.2.0.1"/>
+      </properties>
+      <system-out><![CDATA[2018-01-08 18:52:41 - [TEST_SUITE][INCOMPLETE] - AutomationTestSuite1: null]]></system-out>
+      <system-err><![CDATA[2018-01-08 18:52:41 - [TEST_SUITE][INCOMPLETE] - AutomationTestSuite1: null]]></system-err>
+   </testsuite>
+</testsuites>
