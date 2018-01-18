@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+MobileTestSuite,,,2018-01-18 17:17:31,2018-01-18 17:17:33,1.271s,FAILED
+,,,,,,
+Test Cases/TC04,,,2018-01-18 17:17:32,2018-01-18 17:17:33,0.857s,FAILED
+startApplication,,,2018-01-18 17:17:32,2018-01-18 17:17:33,0.189s,FAILED

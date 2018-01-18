@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="MobileTestSuite" time="1" tests="0" failures="1" errors="0">
+   <testsuite name="MobileTestSuite" tests="0" failures="1" errors="0" time="1" timestamp="2018-01-18 17:17:31" hostname="ENguli - LTTECH1550.safaricom.net" id="Test Suites/MobileTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\enguli\\git\\KatalonStudioRepo\\Reports\\MobileTestSuite\\20180118_171728"/>
+         <property name="logFiles" value="C:\\Users\\enguli\\git\\KatalonStudioRepo\\Reports\\MobileTestSuite\\20180118_171728\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ENguli - LTTECH1550.safaricom.net"/>
+         <property name="hostAddress" value="192.168.43.131"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.2.0.1"/>
+      </properties>
+      <testcase name="Test Cases/TC04" classname="Test Cases/TC04" status="FAILED">
+         <failure type="FAILED" message="Unable to start app at: 'D:\QA\APK\MaterialLoginExample.apk' (Root cause: java.lang.IllegalArgumentException: The mobile device is missing. Please select the mobile device to be executed and try again.)"/>
+         <system-out><![CDATA[2018-01-18 17:17:32 - [TEST_CASE][FAILED] - Test Cases/TC04: Test Cases/TC04 FAILED because (of) Unable to start app at: 'D:\QA\APK\MaterialLoginExample.apk' (Root cause: java.lang.IllegalArgumentException: The mobile device is missing. Please select the mobile device to be executed and try again.)
+
+2018-01-18 17:17:32 - [TEST_STEP][FAILED] - startApplication: Unable to start app at: 'D:\QA\APK\MaterialLoginExample.apk' (Root cause: java.lang.IllegalArgumentException: The mobile device is missing. Please select the mobile device to be executed and try again.)
+
+2018-01-18 17:17:33 - [MESSAGE][FAILED] - Unable to start app at: 'D:\QA\APK\MaterialLoginExample.apk' (Root cause: java.lang.IllegalArgumentException: The mobile device is missing. Please select the mobile device to be executed and try again.)]]></system-out>
+         <system-err><![CDATA[2018-01-18 17:17:32 - [TEST_CASE][FAILED] - Test Cases/TC04: Test Cases/TC04 FAILED because (of) Unable to start app at: 'D:\QA\APK\MaterialLoginExample.apk' (Root cause: java.lang.IllegalArgumentException: The mobile device is missing. Please select the mobile device to be executed and try again.)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-01-18 17:17:31 - [TEST_SUITE][FAILED] - MobileTestSuite: Test Cases/TC04 FAILED because (of) Unable to start app at: 'D:\QA\APK\MaterialLoginExample.apk' (Root cause: java.lang.IllegalArgumentException: The mobile device is missing. Please select the mobile device to be executed and try again.)]]></system-out>
+      <system-err><![CDATA[2018-01-18 17:17:31 - [TEST_SUITE][FAILED] - MobileTestSuite: Test Cases/TC04 FAILED because (of) Unable to start app at: 'D:\QA\APK\MaterialLoginExample.apk' (Root cause: java.lang.IllegalArgumentException: The mobile device is missing. Please select the mobile device to be executed and try again.)]]></system-err>
+   </testsuite>
+</testsuites>
