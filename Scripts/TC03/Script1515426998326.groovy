@@ -26,7 +26,7 @@ WebUI.navigateToUrl('https://www.masoko.com/')
 
 WebUI.click(findTestObject('Masoko/Page_Shop Online in Kenya - Pay Con/img'))
 
-WebUI.click(findTestObject('Masoko/Page_Shop Online in Kenya - Pay Con/img'))
+WebUI.mouseOver(findTestObject('Masoko/Page_Shop Online in Kenya - Pay Con/Page_Shop Online in Kenya - Pay Con/a_Shop by Category'))
 
 WebUI.closeBrowser()
 
