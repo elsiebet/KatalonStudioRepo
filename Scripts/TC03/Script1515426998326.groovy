@@ -18,4 +18,15 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://www.masoko.com/')
+
+WebUI.click(findTestObject('Masoko/Page_Shop Online in Kenya - Pay Con/img'))
+
+WebUI.click(findTestObject('Masoko/Page_Shop Online in Kenya - Pay Con/img'))
+
+WebUI.closeBrowser()
 
