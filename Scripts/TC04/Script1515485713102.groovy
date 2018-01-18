@@ -36,7 +36,7 @@ Mobile.setText(findTestObject('android.widget.EditText1 (1)'), 'Test', 0)
 Mobile.tap(findTestObject('android.widget.Button0 - LOGIN'), 0)
 
 //Mobile.verifyMatch('Hello world!', 'Hello world!', false)
-Mobile.verifyElementAttributeValue(findTestObject('android.widget.TextView1 - Hello world'), 'text', 'Hello world1', 3)
+Mobile.verifyElementAttributeValue(findTestObject('android.widget.TextView1 - Hello world'), 'text', 'testing', 3)
 
 Mobile.closeApplication()
 

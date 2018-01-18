@@ -69,5 +69,6 @@
 			<attribute name="javadoc_location" value="file:/D:/QA/Katalon_Studio_Windows_64-5.2.0.1/Katalon_Studio_Windows_64-5.2.0.1/configuration/resources/apidocs/com.kms.katalon.core.webui/"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry exported="true" kind="con" path="GROOVY_SUPPORT"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -4,8 +4,8 @@
    <name>MobileTestSuite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-01-18T17:17:28</lastRun>
-   <mailRecipient>liznthenya@gmail.com;</mailRecipient>
+   <lastRun>2018-01-18T16:25:56</lastRun>
+   <mailRecipient>liznthenya@gmail.com;enguli@safaricom.co.ke;</mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
