@@ -1,14 +1,14 @@
 [Appium] Welcome to Appium v1.7.1
 [Appium] Non-default server args:
-[Appium]   port: 20926
+[Appium]   port: 59277
 [Appium]   loglevel: info
-[Appium]   chromeDriverPort: 20928
-[Appium]   tmpDir: C:\Users\enguli\AppData\Local\Temp\\Katalon\Appium\Temp1516271104944
-[Appium] Appium REST http interface listener started on 0.0.0.0:20926
+[Appium]   chromeDriverPort: 59287
+[Appium]   tmpDir: C:\Users\enguli\AppData\Local\Temp\\Katalon\Appium\Temp1516287252471
+[Appium] Appium REST http interface listener started on 0.0.0.0:59277
 [HTTP] --> GET /wd/hub/status {}
-[HTTP] <-- GET /wd/hub/status 200 118 ms - 83 
+[HTTP] <-- GET /wd/hub/status 200 288 ms - 83 
 [HTTP] --> GET /wd/hub/status {}
-[HTTP] <-- GET /wd/hub/status 200 108 ms - 83 
+[HTTP] <-- GET /wd/hub/status 200 200 ms - 83 
 [HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"app":"D:\\QA\\APK\\MaterialLoginExample.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"samsung SM-A720F 7.0","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"52107342b2c2839f"},"capabilities":{"desiredCapabilities":{"app":"D:\\QA\\APK\\MaterialLoginExample.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"samsung SM-A720F 7.0","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"52107342b2c2839f"},"firstMatch":[{"platformName":"android"}]}}
 [Appium] Creating new AndroidUiautomator2Driver (v0.6.5) session
 [Appium] Capabilities:
@@ -23,7 +23,7 @@
 [Appium]   platformName: 'Android'
 [Appium]   udid: '52107342b2c2839f'
 [BaseDriver] The following capabilities were provided, but are not recognized by appium: platform.
-[BaseDriver] Session created with session id: 008e0874-272f-4e7e-914d-c04b20ef803d
+[BaseDriver] Session created with session id: dc1687c1-f1db-4b8a-96d6-ff13ab1f5b76
 [BaseDriver] Using local app 'D:\QA\APK\MaterialLoginExample.apk'
 [AndroidDriver] Java version is: 1.8.0_102
 [ADB] Checking whether adb is present
@@ -46,41 +46,18 @@
 [ADB] Checking whether aapt is present
 [ADB] Using aapt.exe from C:\Users\enguli\.katalon\tools\android_sdk\build-tools\27.0.2\aapt.exe
 [ADB] Extracting package and launch activity from manifest
-[UiAutomat[UiAutomator2] Did not get confirmation UiAutomator2 deleteSession worked; Error was: Error: Trying to proxy a session command without se[HTTP] <-- POST /wd/hub/session - - ms - - 
-Error: wriError: write EPIPE
-    at _errnoException (util.js:1024:11)
-    at Socket._writeGeneric (net.js:767:25)
-    at Socket._write (net.js:786:8)
-    at doWrite (_stream_writable.js:387:12)
-    at writeOrBuffer (_stream_writable.js:373:5)
-    at Socket.Writable.write (_stream_writable.js:290:11)
-    at Socket.write (net.js:704:40)
-    at Socket.stream.write (C:\Users\enguli\AppData\Roaming\npm\node_modules\appium\node_modules\ansi\lib\newlines.js:36:21)
-    aError: write EPIPE
-    at _errnoException (util.js:1024:11)
-    at Socket._writeGeneric (net.js:767:25)
-    at Socket._write (net.js:786:8)
-    at doWrite (_stream_writable.js:387:12)
-    at writeOrBuffer (_stream_writable.js:373:5)
-    at Socket.Writable.write (_stream_writable.js:290:11)
-    at Socket.write (net.js:704:40)
-    at Socket.stream.write (C:\Users\enguli\AppData\Roaming\npm\node_modules\appium\node_modules\ansi\lib\newlines.js:36:21)
-    at exports.Console.Console.log (C:\Users\enguli\AppData\Roaming\npm\node_modules\appium\node_modules\winston\lib\winston\transports\console.js:119:20)
-    at transportLog (C:\Users\enguli\AppData\Roaming\npm\node_modules\appium\node_modules\winston\lib\winston\logger.js:234:15)
-    at C:\Users\enguli\AppData\Roaming\npm\node_modules\appium\node_modules\winston\node_modules\async\lib\async.js:157:13
-    at _each (C:\Users\enguli\AppData\Roaming\npm\node_modules\appium\node_modules\winston\node_modules\async\lib\async.js:57:9)
-    at Object.async.each (C:\Users\enguli\AppData\Roaming\npm\node_modules\appium\node_modules\winston\node_modules\async\lib\async.js:156:9)
-    at exports.Logger.Logger.log (C:\Users\enguli\AppData\Roaming\npm\node_modules\appium\node_modules\winston\lib\winston\logger.js:246:9)
-    at exports.Logger.target.(anonymous function) [as error] (C:\Users\enguli\AppData\Roaming\npm\node_modules\appium\node_modules\winston\lib\winston\common.js:54:18)
-    at EventEmitter.<anonymous> (../../lib/logsink.js:197:22)
-    at emitOne (events.js:116:13)
-    at EventEmitter.emit (events.js:211:7)
-    at EventEmitter.<anonymous> (C:\Users\enguli\AppData\Roaming\npm\node_modules\appium\node_modules\npmlog\log.js:158:8)
-    at EventEmitter.<anonymous> (C:\Users\enguli\AppData\Roaming\npm\node_modules\appium\node_modules\npmlog\log.js:231:21)
-    at asyncHandler$ (../../../lib/mjsonwp/mjsonwp.js:309:13)
-    at tryCatch (C:\Users\enguli\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
-    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\enguli\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
-    at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (C:\Users\enguli\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
-    at GeneratorFunctionPrototype.invoke (C:\Users\enguli\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
-    at <anonymous>
-    at process._tickCallback (internal/process/next_tick.js:188:7)
+[UiAutomator2] Starting uiautomator2 server v0.1.8
+[UiAutomator2] Running command: 'adb -s 52107342b2c2839f shell am instrument -w io.appium.uiautomator2.server.test/android.support.test.runner.AndroidJUnitRunner'
+[UiAutomator2] Waiting up to 20000ms for UiAutomator2 to be online...
+[UiAutomator2] UiAutomator2 did not start the activity we were waiting for, 'com.sourcey.materialloginexample/com.sourcey.materiallogindemo.LoginActivity'. Starting it ourselves
+[Appium] New AndroidUiautomator2Driver session created successfully, session dc1687c1-f1db-4b8a-96d6-ff13ab1f5b76 added to master session list
+[HTTP] <-- POST /wd/hub/session 200 52636 ms - 345 
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 291 ms - 83 
+[HTTP] --> POST /wd/hub/session/dc1687c1-f1db-4b8a-96d6-ff13ab1f5b76/timeouts {"type":"implicit","ms":60000}
+[HTTP] <-- POST /wd/hub/session/dc1687c1-f1db-4b8a-96d6-ff13ab1f5b76/timeouts 200 6 ms - 76 
+[BaseDriver] Shutting down because we waited 1800 seconds for a command
+[Appium] Closing session, cause was 'New Command Timeout of 1800 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+[Appium] Removing session dc1687c1-f1db-4b8a-96d6-ff13ab1f5b76 from our master session list
+[UiAutomator2] Did not get confirmation UiAutomator2 deleteSession worked; Error was: ProxyRequestError: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8200
+[UiAutomator2] Unable to remove port forward 'Error executing adbExec. Original error: 'Command 'C\:\\Users\\enguli\\.katalon\\tools\\android_sdk\\platform-tools\\adb.exe -P 5037 -s 52107342b2c2839f forward --remove tcp\:8200' exited with code 1'; Stderr: 'error: listener 'tcp:8200' not found'; Code: '1''

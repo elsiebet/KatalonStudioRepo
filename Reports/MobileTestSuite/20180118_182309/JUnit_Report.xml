@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="MobileTestSuite" time="124" tests="0" failures="1" errors="0">
+   <testsuite name="MobileTestSuite" tests="0" failures="1" errors="0" time="124" timestamp="2018-01-18 18:23:13" hostname="ENguli - LTTECH1550.safaricom.net" id="Test Suites/MobileTestSuite">
+      <properties>
+         <property name="deviceName" value="samsung SM-A720F 7.0"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\enguli\\git\\KatalonStudioRepo\\Reports\\MobileTestSuite\\20180118_182309"/>
+         <property name="logFiles" value="C:\\Users\\enguli\\git\\KatalonStudioRepo\\Reports\\MobileTestSuite\\20180118_182309\\appium.log, C:\\Users\\enguli\\git\\KatalonStudioRepo\\Reports\\MobileTestSuite\\20180118_182309\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ENguli - LTTECH1550.safaricom.net"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.2.0.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.7.1"/>
+         <property name="deviceModel" value="SM-A720F"/>
+         <property name="hostAddress" value="192.168.43.131"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="52107342b2c2839f"/>
+         <property name="deviceName" value="samsung SM-A720F 7.0"/>
+         <property name="deviceOSVersion" value="7.0"/>
+      </properties>
+      <testcase name="Test Cases/TC04" classname="Test Cases/TC04" status="FAILED">
+         <failure type="FAILED" message="Failed to set text into element (Root cause: Object Object Repository/android.widget.EditText0 (1) not found)"/>
+         <system-out><![CDATA[2018-01-18 18:23:14 - [TEST_CASE][FAILED] - Test Cases/TC04: Test Cases/TC04 FAILED because (of) Failed to set text into element (Root cause: Object Object Repository/android.widget.EditText0 (1) not found)
+
+2018-01-18 18:23:14 - [TEST_STEP][PASSED] - startApplication: Started app at: 'D:\QA\APK\MaterialLoginExample.apk'
+
+2018-01-18 18:24:39 - [MESSAGE][PASSED] - Started app at: 'D:\QA\APK\MaterialLoginExample.apk'
+
+2018-01-18 18:24:40 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.widget.EditText0'
+
+2018-01-18 18:24:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-18 18:24:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.EditText0'
+
+2018-01-18 18:24:42 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-01-18 18:24:44 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-01-18 18:24:45 - [TEST_STEP][FAILED] - setText: Failed to set text into element (Root cause: Object Object Repository/android.widget.EditText0 (1) not found)
+
+2018-01-18 18:24:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-18 18:25:15 - [MESSAGE][FAILED] - Object Object Repository/android.widget.EditText0 (1) not found
+
+2018-01-18 18:25:15 - [MESSAGE][FAILED] - Failed to set text into element (Root cause: Object Object Repository/android.widget.EditText0 (1) not found)]]></system-out>
+         <system-err><![CDATA[2018-01-18 18:23:14 - [TEST_CASE][FAILED] - Test Cases/TC04: Test Cases/TC04 FAILED because (of) Failed to set text into element (Root cause: Object Object Repository/android.widget.EditText0 (1) not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-01-18 18:23:13 - [TEST_SUITE][FAILED] - MobileTestSuite: Test Cases/TC04 FAILED because (of) Failed to set text into element (Root cause: Object Object Repository/android.widget.EditText0 (1) not found)]]></system-out>
+      <system-err><![CDATA[2018-01-18 18:23:13 - [TEST_SUITE][FAILED] - MobileTestSuite: Test Cases/TC04 FAILED because (of) Failed to set text into element (Root cause: Object Object Repository/android.widget.EditText0 (1) not found)]]></system-err>
+   </testsuite>
+</testsuites>

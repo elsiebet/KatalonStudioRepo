@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+MobileTestSuite,,,2018-01-18 18:23:13,2018-01-18 18:25:18,2m - 4.818s,FAILED
+,,,,,,
+Test Cases/TC04,,,2018-01-18 18:23:14,2018-01-18 18:25:15,2m - 1.572s,FAILED
+startApplication,,,2018-01-18 18:23:14,2018-01-18 18:24:40,1m - 25.466s,PASSED
+tap,,,2018-01-18 18:24:40,2018-01-18 18:24:42,2.158s,PASSED
+hideKeyboard,,,2018-01-18 18:24:42,2018-01-18 18:24:45,2.978s,PASSED
+setText,,,2018-01-18 18:24:45,2018-01-18 18:25:15,30.419s,FAILED
