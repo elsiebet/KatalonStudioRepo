@@ -191,3 +191,8 @@
 [JSONWP Proxy] Replacing sessionId 3da4c07a-9d8a-478a-a1b4-283bc85fe503 with 19d41d4d-42ef-4446-99f3-fafd6c08f29b
 [HTTP] <-- GET /wd/hub/session/19d41d4d-42ef-4446-99f3-fafd6c08f29b/window/current/size 200 36 ms - 100 
 [HTTP] --> POST /wd/hub/session/19d41d4d-42ef-4446-99f3-fafd6c08f29b/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Hello world!\").instance(1)"}
+[HTTP] <-- POST /wd/hub/session/19d41d4d-42ef-4446-99f3-fafd6c08f29b/elements 200 30362 ms - 74 
+[HTTP] --> DELETE /wd/hub/session/19d41d4d-42ef-4446-99f3-fafd6c08f29b {}
+[Appium] Removing session 19d41d4d-42ef-4446-99f3-fafd6c08f29b from our master session list
+[ADB] com.sourcey.materialloginexample was successfully uninstalled
+[HTTP] <-- DELETE /wd/hub/session/19d41d4d-42ef-4446-99f3-fafd6c08f29b 200 5119 ms - 76 

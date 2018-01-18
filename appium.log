@@ -1,14 +1,14 @@
 [Appium] Welcome to Appium v1.7.1
 [Appium] Non-default server args:
-[Appium]   port: 59277
+[Appium]   port: 2874
 [Appium]   loglevel: info
-[Appium]   chromeDriverPort: 59287
-[Appium]   tmpDir: C:\Users\enguli\AppData\Local\Temp\\Katalon\Appium\Temp1516287252471
-[Appium] Appium REST http interface listener started on 0.0.0.0:59277
+[Appium]   chromeDriverPort: 2878
+[Appium]   tmpDir: C:\Users\enguli\AppData\Local\Temp\\Katalon\Appium\Temp1516289355502
+[Appium] Appium REST http interface listener started on 0.0.0.0:2874
 [HTTP] --> GET /wd/hub/status {}
-[HTTP] <-- GET /wd/hub/status 200 288 ms - 83 
+[HTTP] <-- GET /wd/hub/status 200 114 ms - 83 
 [HTTP] --> GET /wd/hub/status {}
-[HTTP] <-- GET /wd/hub/status 200 200 ms - 83 
+[HTTP] <-- GET /wd/hub/status 200 209 ms - 83 
 [HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"app":"D:\\QA\\APK\\MaterialLoginExample.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"samsung SM-A720F 7.0","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"52107342b2c2839f"},"capabilities":{"desiredCapabilities":{"app":"D:\\QA\\APK\\MaterialLoginExample.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"samsung SM-A720F 7.0","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"52107342b2c2839f"},"firstMatch":[{"platformName":"android"}]}}
 [Appium] Creating new AndroidUiautomator2Driver (v0.6.5) session
 [Appium] Capabilities:
@@ -23,7 +23,7 @@
 [Appium]   platformName: 'Android'
 [Appium]   udid: '52107342b2c2839f'
 [BaseDriver] The following capabilities were provided, but are not recognized by appium: platform.
-[BaseDriver] Session created with session id: dc1687c1-f1db-4b8a-96d6-ff13ab1f5b76
+[BaseDriver] Session created with session id: f9c04806-124c-4572-b8c3-bc3b25ef71e2
 [BaseDriver] Using local app 'D:\QA\APK\MaterialLoginExample.apk'
 [AndroidDriver] Java version is: 1.8.0_102
 [ADB] Checking whether adb is present
@@ -43,6 +43,10 @@
 [ADB] Checking whether zipalign is present
 [ADB] Using zipalign.exe from C:\Users\enguli\.katalon\tools\android_sdk\build-tools\27.0.2\zipalign.exe
 [AndroidDriver] Remote apk path is /data/local/tmp/27af2c2f170fce9a9189edc10337c7ac.apk
+[AndroidDriver] Apk is not yet installed
+[AndroidDriver] installing apk from remote
+[AndroidDriver] Clearing out any existing remote apks with the same hash
+[ADB] com.sourcey.materialloginexample was not uninstalled, because it was not present on the device
 [ADB] Checking whether aapt is present
 [ADB] Using aapt.exe from C:\Users\enguli\.katalon\tools\android_sdk\build-tools\27.0.2\aapt.exe
 [ADB] Extracting package and launch activity from manifest
@@ -50,14 +54,26 @@
 [UiAutomator2] Running command: 'adb -s 52107342b2c2839f shell am instrument -w io.appium.uiautomator2.server.test/android.support.test.runner.AndroidJUnitRunner'
 [UiAutomator2] Waiting up to 20000ms for UiAutomator2 to be online...
 [UiAutomator2] UiAutomator2 did not start the activity we were waiting for, 'com.sourcey.materialloginexample/com.sourcey.materiallogindemo.LoginActivity'. Starting it ourselves
-[Appium] New AndroidUiautomator2Driver session created successfully, session dc1687c1-f1db-4b8a-96d6-ff13ab1f5b76 added to master session list
-[HTTP] <-- POST /wd/hub/session 200 52636 ms - 345 
+[Appium] New AndroidUiautomator2Driver session created successfully, session f9c04806-124c-4572-b8c3-bc3b25ef71e2 added to master session list
+[HTTP] <-- POST /wd/hub/session 200 61358 ms - 345 
 [HTTP] --> GET /wd/hub/status {}
-[HTTP] <-- GET /wd/hub/status 200 291 ms - 83 
-[HTTP] --> POST /wd/hub/session/dc1687c1-f1db-4b8a-96d6-ff13ab1f5b76/timeouts {"type":"implicit","ms":60000}
-[HTTP] <-- POST /wd/hub/session/dc1687c1-f1db-4b8a-96d6-ff13ab1f5b76/timeouts 200 6 ms - 76 
-[BaseDriver] Shutting down because we waited 1800 seconds for a command
-[Appium] Closing session, cause was 'New Command Timeout of 1800 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
-[Appium] Removing session dc1687c1-f1db-4b8a-96d6-ff13ab1f5b76 from our master session list
-[UiAutomator2] Did not get confirmation UiAutomator2 deleteSession worked; Error was: ProxyRequestError: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8200
-[UiAutomator2] Unable to remove port forward 'Error executing adbExec. Original error: 'Command 'C\:\\Users\\enguli\\.katalon\\tools\\android_sdk\\platform-tools\\adb.exe -P 5037 -s 52107342b2c2839f forward --remove tcp\:8200' exited with code 1'; Stderr: 'error: listener 'tcp:8200' not found'; Code: '1''
+[HTTP] <-- GET /wd/hub/status 200 1147 ms - 83 
+[HTTP] --> POST /wd/hub/session/f9c04806-124c-4572-b8c3-bc3b25ef71e2/timeouts {"type":"implicit","ms":60000}
+[HTTP] <-- POST /wd/hub/session/f9c04806-124c-4572-b8c3-bc3b25ef71e2/timeouts 200 213 ms - 76 
+[HTTP] --> GET /wd/hub/session/f9c04806-124c-4572-b8c3-bc3b25ef71e2/source {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 5dbd42ee-02c8-45b1-bed7-ad65fa199755 with f9c04806-124c-4572-b8c3-bc3b25ef71e2
+[HTTP] <-- GET /wd/hub/session/f9c04806-124c-4572-b8c3-bc3b25ef71e2/source 200 253 ms - 7241 
+[HTTP] --> GET /wd/hub/session/f9c04806-124c-4572-b8c3-bc3b25ef71e2/screenshot {}
+[HTTP] <-- GET /wd/hub/session/f9c04806-124c-4572-b8c3-bc3b25ef71e2/screenshot 200 2542 ms - 102138 
+[HTTP] --> GET /wd/hub/session/f9c04806-124c-4572-b8c3-bc3b25ef71e2/source {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 5dbd42ee-02c8-45b1-bed7-ad65fa199755 with f9c04806-124c-4572-b8c3-bc3b25ef71e2
+[HTTP] <-- GET /wd/hub/session/f9c04806-124c-4572-b8c3-bc3b25ef71e2/source 200 144 ms - 5559 
+[HTTP] --> GET /wd/hub/session/f9c04806-124c-4572-b8c3-bc3b25ef71e2/screenshot {}
+[HTTP] <-- GET /wd/hub/session/f9c04806-124c-4572-b8c3-bc3b25ef71e2/screenshot 200 3807 ms - 53206 
+[HTTP] --> DELETE /wd/hub/session/f9c04806-124c-4572-b8c3-bc3b25ef71e2 {}
+[Appium] Removing session f9c04806-124c-4572-b8c3-bc3b25ef71e2 from our master session list
+[HTTP] --> DELETE /wd/hub/session/f9c04806-124c-4572-b8c3-bc3b25ef71e2 {}
+[HTTP] <-- DELETE /wd/hub/session/f9c04806-124c-4572-b8c3-bc3b25ef71e2 404 6 ms - 131 
+[HTTP] <-- DELETE /wd/hub/session/f9c04806-124c-4572-b8c3-bc3b25ef71e2 200 1831 ms - 76 
