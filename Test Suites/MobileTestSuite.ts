@@ -1,26 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>AutomationTestSuite1</name>
+   <name>MobileTestSuite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-01-08T19:11:31</lastRun>
+   <lastRun>2018-01-18T16:25:56</lastRun>
    <mailRecipient>liznthenya@gmail.com;</mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>8eaf7b49-3c9c-486a-853f-521cbd4b2e67</testSuiteGuid>
+   <testSuiteGuid>deffc34f-9b97-40f4-ac27-46b0bf1cefe5</testSuiteGuid>
    <testCaseLink>
-      <guid>dac700c2-92ff-45ed-94f3-ac45e081b2ae</guid>
+      <guid>d7d26c51-3c43-4752-8199-8180f6c05f3c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC01</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>e7406701-a5d4-40c9-9fca-848c224f9d19</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/TC02</testCaseId>
+      <testCaseId>Test Cases/TC04</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

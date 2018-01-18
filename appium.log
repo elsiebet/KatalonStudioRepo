@@ -1,0 +1,86 @@
+[Appium] Welcome to Appium v1.7.1
+[Appium] Non-default server args:
+[Appium]   port: 20926
+[Appium]   loglevel: info
+[Appium]   chromeDriverPort: 20928
+[Appium]   tmpDir: C:\Users\enguli\AppData\Local\Temp\\Katalon\Appium\Temp1516271104944
+[Appium] Appium REST http interface listener started on 0.0.0.0:20926
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 118 ms - 83 
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 108 ms - 83 
+[HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"app":"D:\\QA\\APK\\MaterialLoginExample.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"samsung SM-A720F 7.0","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"52107342b2c2839f"},"capabilities":{"desiredCapabilities":{"app":"D:\\QA\\APK\\MaterialLoginExample.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"samsung SM-A720F 7.0","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"52107342b2c2839f"},"firstMatch":[{"platformName":"android"}]}}
+[Appium] Creating new AndroidUiautomator2Driver (v0.6.5) session
+[Appium] Capabilities:
+[Appium]   app: 'D:\\QA\\APK\\MaterialLoginExample.apk'
+[Appium]   autoGrantPermissions: true
+[Appium]   automationName: 'uiautomator2'
+[Appium]   deviceName: 'samsung SM-A720F 7.0'
+[Appium]   fullReset: false
+[Appium]   newCommandTimeout: 1800
+[Appium]   noReset: true
+[Appium]   platform: 'ANDROID'
+[Appium]   platformName: 'Android'
+[Appium]   udid: '52107342b2c2839f'
+[BaseDriver] The following capabilities were provided, but are not recognized by appium: platform.
+[BaseDriver] Session created with session id: 008e0874-272f-4e7e-914d-c04b20ef803d
+[BaseDriver] Using local app 'D:\QA\APK\MaterialLoginExample.apk'
+[AndroidDriver] Java version is: 1.8.0_102
+[ADB] Checking whether adb is present
+[ADB] Using adb.exe from C:\Users\enguli\.katalon\tools\android_sdk\platform-tools\adb.exe
+[AndroidDriver] Retrieving device list
+[AndroidDriver] Using device: 52107342b2c2839f
+[ADB] Checking whether adb is present
+[ADB] Using adb.exe from C:\Users\enguli\.katalon\tools\android_sdk\platform-tools\adb.exe
+[ADB] Checking whether aapt is present
+[ADB] Using aapt.exe from C:\Users\enguli\.katalon\tools\android_sdk\build-tools\27.0.2\aapt.exe
+[ADB] Extracting package and launch activity from manifest
+[ADB] Getting device platform version
+[ADB] Checking whether aapt is present
+[ADB] Using aapt.exe from C:\Users\enguli\.katalon\tools\android_sdk\build-tools\27.0.2\aapt.exe
+[ADB] io.appium.settings was successfully uninstalled
+[AndroidDriver] Screen already unlocked, doing nothing
+[ADB] Checking whether zipalign is present
+[ADB] Using zipalign.exe from C:\Users\enguli\.katalon\tools\android_sdk\build-tools\27.0.2\zipalign.exe
+[AndroidDriver] Remote apk path is /data/local/tmp/27af2c2f170fce9a9189edc10337c7ac.apk
+[ADB] Checking whether aapt is present
+[ADB] Using aapt.exe from C:\Users\enguli\.katalon\tools\android_sdk\build-tools\27.0.2\aapt.exe
+[ADB] Extracting package and launch activity from manifest
+[UiAutomat[UiAutomator2] Did not get confirmation UiAutomator2 deleteSession worked; Error was: Error: Trying to proxy a session command without se[HTTP] <-- POST /wd/hub/session - - ms - - 
+Error: wriError: write EPIPE
+    at _errnoException (util.js:1024:11)
+    at Socket._writeGeneric (net.js:767:25)
+    at Socket._write (net.js:786:8)
+    at doWrite (_stream_writable.js:387:12)
+    at writeOrBuffer (_stream_writable.js:373:5)
+    at Socket.Writable.write (_stream_writable.js:290:11)
+    at Socket.write (net.js:704:40)
+    at Socket.stream.write (C:\Users\enguli\AppData\Roaming\npm\node_modules\appium\node_modules\ansi\lib\newlines.js:36:21)
+    aError: write EPIPE
+    at _errnoException (util.js:1024:11)
+    at Socket._writeGeneric (net.js:767:25)
+    at Socket._write (net.js:786:8)
+    at doWrite (_stream_writable.js:387:12)
+    at writeOrBuffer (_stream_writable.js:373:5)
+    at Socket.Writable.write (_stream_writable.js:290:11)
+    at Socket.write (net.js:704:40)
+    at Socket.stream.write (C:\Users\enguli\AppData\Roaming\npm\node_modules\appium\node_modules\ansi\lib\newlines.js:36:21)
+    at exports.Console.Console.log (C:\Users\enguli\AppData\Roaming\npm\node_modules\appium\node_modules\winston\lib\winston\transports\console.js:119:20)
+    at transportLog (C:\Users\enguli\AppData\Roaming\npm\node_modules\appium\node_modules\winston\lib\winston\logger.js:234:15)
+    at C:\Users\enguli\AppData\Roaming\npm\node_modules\appium\node_modules\winston\node_modules\async\lib\async.js:157:13
+    at _each (C:\Users\enguli\AppData\Roaming\npm\node_modules\appium\node_modules\winston\node_modules\async\lib\async.js:57:9)
+    at Object.async.each (C:\Users\enguli\AppData\Roaming\npm\node_modules\appium\node_modules\winston\node_modules\async\lib\async.js:156:9)
+    at exports.Logger.Logger.log (C:\Users\enguli\AppData\Roaming\npm\node_modules\appium\node_modules\winston\lib\winston\logger.js:246:9)
+    at exports.Logger.target.(anonymous function) [as error] (C:\Users\enguli\AppData\Roaming\npm\node_modules\appium\node_modules\winston\lib\winston\common.js:54:18)
+    at EventEmitter.<anonymous> (../../lib/logsink.js:197:22)
+    at emitOne (events.js:116:13)
+    at EventEmitter.emit (events.js:211:7)
+    at EventEmitter.<anonymous> (C:\Users\enguli\AppData\Roaming\npm\node_modules\appium\node_modules\npmlog\log.js:158:8)
+    at EventEmitter.<anonymous> (C:\Users\enguli\AppData\Roaming\npm\node_modules\appium\node_modules\npmlog\log.js:231:21)
+    at asyncHandler$ (../../../lib/mjsonwp/mjsonwp.js:309:13)
+    at tryCatch (C:\Users\enguli\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\enguli\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (C:\Users\enguli\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (C:\Users\enguli\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)

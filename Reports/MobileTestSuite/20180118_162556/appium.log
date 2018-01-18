@@ -1,0 +1,198 @@
+[Appium] Welcome to Appium v1.7.1
+[Appium] Non-default server args:
+[Appium]   port: 44591
+[Appium]   loglevel: info
+[Appium]   chromeDriverPort: 44593
+[Appium]   tmpDir: C:\Users\enguli\AppData\Local\Temp\\Katalon\Appium\Temp1516281961140
+[Appium] Appium REST http interface listener started on 0.0.0.0:44591
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 130 ms - 83 
+[HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"app":"D:\\QA\\APK\\MaterialLoginExample.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"samsung SM-A720F 7.0","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"52107342b2c2839f"},"capabilities":{"desiredCapabilities":{"app":"D:\\QA\\APK\\MaterialLoginExample.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"samsung SM-A720F 7.0","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"52107342b2c2839f"},"firstMatch":[{"platformName":"android"}]}}
+[Appium] Creating new AndroidUiautomator2Driver (v0.6.5) session
+[Appium] Capabilities:
+[Appium]   app: 'D:\\QA\\APK\\MaterialLoginExample.apk'
+[Appium]   autoGrantPermissions: true
+[Appium]   automationName: 'uiautomator2'
+[Appium]   deviceName: 'samsung SM-A720F 7.0'
+[Appium]   fullReset: true
+[Appium]   newCommandTimeout: 1800
+[Appium]   noReset: false
+[Appium]   platform: 'ANDROID'
+[Appium]   platformName: 'Android'
+[Appium]   udid: '52107342b2c2839f'
+[BaseDriver] The following capabilities were provided, but are not recognized by appium: platform.
+[BaseDriver] Session created with session id: cdf6cd08-f31a-4d23-b913-26ac8270fe8b
+[BaseDriver] Using local app 'D:\QA\APK\MaterialLoginExample.apk'
+[AndroidDriver] Java version is: 1.8.0_102
+[ADB] Checking whether adb is present
+[ADB] Using adb.exe from C:\Users\enguli\.katalon\tools\android_sdk\platform-tools\adb.exe
+[AndroidDriver] Retrieving device list
+[AndroidDriver] Using device: 52107342b2c2839f
+[ADB] Checking whether adb is present
+[ADB] Using adb.exe from C:\Users\enguli\.katalon\tools\android_sdk\platform-tools\adb.exe
+[ADB] Checking whether aapt is present
+[ADB] Using aapt.exe from C:\Users\enguli\.katalon\tools\android_sdk\build-tools\27.0.2\aapt.exe
+[ADB] Extracting package and launch activity from manifest
+[ADB] Getting device platform version
+[ADB] Checking whether aapt is present
+[ADB] Using aapt.exe from C:\Users\enguli\.katalon\tools\android_sdk\build-tools\27.0.2\aapt.exe
+[ADB] io.appium.settings was successfully uninstalled
+[AndroidDriver] Screen already unlocked, doing nothing
+[ADB] com.sourcey.materialloginexample was not uninstalled, because it was not present on the device
+[ADB] Checking whether zipalign is present
+[ADB] Using zipalign.exe from C:\Users\enguli\.katalon\tools\android_sdk\build-tools\27.0.2\zipalign.exe
+[AndroidDriver] Remote apk path is /data/local/tmp/27af2c2f170fce9a9189edc10337c7ac.apk
+[AndroidDriver] Apk is not yet installed
+[AndroidDriver] installing apk from remote
+[AndroidDriver] Clearing out any existing remote apks with the same hash
+[ADB] com.sourcey.materialloginexample was not uninstalled, because it was not present on the device
+[ADB] Checking whether aapt is present
+[ADB] Using aapt.exe from C:\Users\enguli\.katalon\tools\android_sdk\build-tools\27.0.2\aapt.exe
+[ADB] Extracting package and launch activity from manifest
+[UiAutomator2] Starting uiautomator2 server v0.1.8
+[UiAutomator2] Running command: 'adb -s 52107342b2c2839f shell am instrument -w io.appium.uiautomator2.server.test/android.support.test.runner.AndroidJUnitRunner'
+[UiAutomator2] Waiting up to 20000ms for UiAutomator2 to be online...
+[UiAutomator2] UiAutomator2 did not start the activity we were waiting for, 'com.sourcey.materialloginexample/com.sourcey.materiallogindemo.LoginActivity'. Starting it ourselves
+[Appium] New AndroidUiautomator2Driver session created successfully, session cdf6cd08-f31a-4d23-b913-26ac8270fe8b added to master session list
+[HTTP] <-- POST /wd/hub/session 200 52117 ms - 345 
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 140 ms - 83 
+[HTTP] --> POST /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b/timeouts {"type":"implicit","ms":30000}
+[HTTP] <-- POST /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b/timeouts 200 8 ms - 76 
+[HTTP] --> GET /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b/window/current/size {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId b7c843a0-8fa2-4690-bee0-a9decf90895f with cdf6cd08-f31a-4d23-b913-26ac8270fe8b
+[HTTP] <-- GET /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b/window/current/size 200 59 ms - 100 
+[HTTP] --> POST /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"com.sourcey.materialloginexample:id/input_email\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b/elements 200 171 ms - 124 
+[HTTP] --> GET /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b {}
+[HTTP] <-- GET /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b 200 3 ms - 991 
+[HTTP] --> GET /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b {}
+[HTTP] <-- GET /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b 200 2 ms - 991 
+[HTTP] --> GET /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b {}
+[HTTP] <-- GET /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b 200 2 ms - 991 
+[HTTP] --> GET /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b {}
+[HTTP] <-- GET /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b 200 2 ms - 991 
+[HTTP] --> GET /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b/element/fe703edb-c6d4-483b-b9e4-c7dd054b3776/location {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId b7c843a0-8fa2-4690-bee0-a9decf90895f with cdf6cd08-f31a-4d23-b913-26ac8270fe8b
+[HTTP] <-- GET /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b/element/fe703edb-c6d4-483b-b9e4-c7dd054b3776/location 200 71 ms - 88 
+[HTTP] --> POST /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b/touch/perform {"actions":[{"action":"tap","options":{"element":"fe703edb-c6d4-483b-b9e4-c7dd054b3776","x":1,"y":1}}]}
+[UiAutomator2] calling get location: fe703edb-c6d4-483b-b9e4-c7dd054b3776
+[HTTP] <-- POST /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b/touch/perform 200 1470 ms - 76 
+[HTTP] --> GET /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b/context {}
+[HTTP] <-- GET /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b/context 200 2 ms - 84 
+[HTTP] --> GET /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b/contexts {}
+[HTTP] <-- GET /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b/contexts 200 169 ms - 103 
+[HTTP] --> POST /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b/context {"name":"NATIVE_APP"}
+[HTTP] <-- POST /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b/context 200 197 ms - 76 
+[HTTP] --> POST /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b/appium/device/hide_keyboard {}
+[HTTP] <-- POST /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b/appium/device/hide_keyboard 200 1308 ms - 76 
+[HTTP] --> POST /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b/context {"name":"NATIVE_APP"}
+[HTTP] <-- POST /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b/context 200 291 ms - 76 
+[HTTP] --> GET /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b/window/current/size {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId b7c843a0-8fa2-4690-bee0-a9decf90895f with cdf6cd08-f31a-4d23-b913-26ac8270fe8b
+[HTTP] <-- GET /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b/window/current/size 200 51 ms - 100 
+[HTTP] --> POST /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"com.sourcey.materialloginexample:id/input_email\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b/elements 200 281 ms - 124 
+[HTTP] --> GET /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b {}
+[HTTP] <-- GET /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b 200 3 ms - 991 
+[HTTP] --> GET /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b {}
+[HTTP] <-- GET /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b 200 4 ms - 991 
+[HTTP] --> GET /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b {}
+[HTTP] <-- GET /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b 200 2 ms - 991 
+[HTTP] --> GET /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b {}
+[HTTP] <-- GET /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b 200 1 ms - 991 
+[HTTP] --> GET /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b/element/e56406e4-4939-4c9d-8975-aa9b3e426972/location {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId b7c843a0-8fa2-4690-bee0-a9decf90895f with cdf6cd08-f31a-4d23-b913-26ac8270fe8b
+[HTTP] <-- GET /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b/element/e56406e4-4939-4c9d-8975-aa9b3e426972/location 200 27 ms - 88 
+[HTTP] --> POST /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b/element/e56406e4-4939-4c9d-8975-aa9b3e426972/clear {"id":"e56406e4-4939-4c9d-8975-aa9b3e426972"}
+[HTTP] <-- POST /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b/element/e56406e4-4939-4c9d-8975-aa9b3e426972/clear 200 7370 ms - 76 
+[HTTP] --> POST /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b/element/e56406e4-4939-4c9d-8975-aa9b3e426972/value {"id":"e56406e4-4939-4c9d-8975-aa9b3e426972","value":["elsiebet@yahoo.com"]}
+[HTTP] <-- POST /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b/element/e56406e4-4939-4c9d-8975-aa9b3e426972/value 200 152 ms - 74 
+[HTTP] --> GET /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b/window/current/size {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId b7c843a0-8fa2-4690-bee0-a9decf90895f with cdf6cd08-f31a-4d23-b913-26ac8270fe8b
+[HTTP] <-- GET /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b/window/current/size 200 28 ms - 100 
+[HTTP] --> POST /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"com.sourcey.materialloginexample:id/input_password\").instance(1)"}
+[HTTP] <-- POST /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b/elements 200 901 ms - 124 
+[HTTP] --> GET /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b {}
+[HTTP] <-- GET /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b 200 1 ms - 991 
+[HTTP] --> GET /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b {}
+[HTTP] <-- GET /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b 200 2 ms - 991 
+[HTTP] --> GET /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b {}
+[HTTP] <-- GET /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b 200 3 ms - 991 
+[HTTP] --> GET /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b {}
+[HTTP] <-- GET /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b 200 2 ms - 991 
+[HTTP] --> GET /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b/element/458005df-d599-4c37-9699-c5a1ca2610ee/location {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId b7c843a0-8fa2-4690-bee0-a9decf90895f with cdf6cd08-f31a-4d23-b913-26ac8270fe8b
+[HTTP] <-- GET /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b/element/458005df-d599-4c37-9699-c5a1ca2610ee/location 200 39 ms - 88 
+[HTTP] --> POST /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b/touch/perform {"actions":[{"action":"tap","options":{"element":"458005df-d599-4c37-9699-c5a1ca2610ee","x":1,"y":1}}]}
+[UiAutomator2] calling get location: 458005df-d599-4c37-9699-c5a1ca2610ee
+[HTTP] <-- POST /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b/touch/perform 200 1097 ms - 76 
+[HTTP] --> GET /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b/context {}
+[HTTP] <-- GET /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b/context 200 3 ms - 84 
+[HTTP] --> GET /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b/contexts {}
+[HTTP] <-- GET /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b/contexts 200 192 ms - 103 
+[HTTP] --> POST /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b/context {"name":"NATIVE_APP"}
+[HTTP] <-- POST /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b/context 200 202 ms - 76 
+[HTTP] --> POST /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b/appium/device/hide_keyboard {}
+[HTTP] <-- POST /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b/appium/device/hide_keyboard 200 1227 ms - 76 
+[HTTP] --> POST /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b/context {"name":"NATIVE_APP"}
+[HTTP] <-- POST /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b/context 200 227 ms - 76 
+[HTTP] --> GET /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b/window/current/size {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId b7c843a0-8fa2-4690-bee0-a9decf90895f with cdf6cd08-f31a-4d23-b913-26ac8270fe8b
+[HTTP] <-- GET /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b/window/current/size 200 23 ms - 100 
+[HTTP] --> POST /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"com.sourcey.materialloginexample:id/input_password\").instance(1)"}
+[HTTP] <-- POST /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b/elements 200 779 ms - 124 
+[HTTP] --> GET /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b {}
+[HTTP] <-- GET /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b 200 4 ms - 991 
+[HTTP] --> GET /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b {}
+[HTTP] <-- GET /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b 200 4 ms - 991 
+[HTTP] --> GET /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b {}
+[HTTP] <-- GET /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b 200 1 ms - 991 
+[HTTP] --> GET /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b {}
+[HTTP] <-- GET /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b 200 1 ms - 991 
+[HTTP] --> GET /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b/element/94cb28dc-5366-4a9d-90f2-8b25472547f7/location {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId b7c843a0-8fa2-4690-bee0-a9decf90895f with cdf6cd08-f31a-4d23-b913-26ac8270fe8b
+[HTTP] <-- GET /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b/element/94cb28dc-5366-4a9d-90f2-8b25472547f7/location 200 50 ms - 88 
+[HTTP] --> POST /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b/element/94cb28dc-5366-4a9d-90f2-8b25472547f7/clear {"id":"94cb28dc-5366-4a9d-90f2-8b25472547f7"}
+[HTTP] <-- POST /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b/element/94cb28dc-5366-4a9d-90f2-8b25472547f7/clear 200 7367 ms - 76 
+[HTTP] --> POST /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b/element/94cb28dc-5366-4a9d-90f2-8b25472547f7/value {"id":"94cb28dc-5366-4a9d-90f2-8b25472547f7","value":["Test"]}
+[HTTP] <-- POST /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b/element/94cb28dc-5366-4a9d-90f2-8b25472547f7/value 200 171 ms - 74 
+[HTTP] --> GET /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b/window/current/size {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId b7c843a0-8fa2-4690-bee0-a9decf90895f with cdf6cd08-f31a-4d23-b913-26ac8270fe8b
+[HTTP] <-- GET /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b/window/current/size 200 19 ms - 100 
+[HTTP] --> POST /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.Button\").text(\"LOGIN\").resourceId(\"com.sourcey.materialloginexample:id/btn_login\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b/elements 200 676 ms - 124 
+[HTTP] --> GET /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b {}
+[HTTP] <-- GET /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b 200 4 ms - 991 
+[HTTP] --> GET /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b {}
+[HTTP] <-- GET /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b 200 3 ms - 991 
+[HTTP] --> GET /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b {}
+[HTTP] <-- GET /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b 200 3 ms - 991 
+[HTTP] --> GET /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b {}
+[HTTP] <-- GET /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b 200 2 ms - 991 
+[HTTP] --> GET /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b/element/3982da4e-5293-4146-95fa-565073d3d587/location {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId b7c843a0-8fa2-4690-bee0-a9decf90895f with cdf6cd08-f31a-4d23-b913-26ac8270fe8b
+[HTTP] <-- GET /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b/element/3982da4e-5293-4146-95fa-565073d3d587/location 200 59 ms - 88 
+[HTTP] --> POST /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b/touch/perform {"actions":[{"action":"tap","options":{"element":"3982da4e-5293-4146-95fa-565073d3d587","x":1,"y":1}}]}
+[UiAutomator2] calling get location: 3982da4e-5293-4146-95fa-565073d3d587
+[HTTP] <-- POST /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b/touch/perform 200 2042 ms - 76 
+[HTTP] --> GET /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b/window/current/size {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId b7c843a0-8fa2-4690-bee0-a9decf90895f with cdf6cd08-f31a-4d23-b913-26ac8270fe8b
+[HTTP] <-- GET /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b/window/current/size 200 45 ms - 100 
+[HTTP] --> POST /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Hello world!\").instance(1)"}
+[HTTP] <-- POST /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b/elements 200 30427 ms - 74 
+[HTTP] --> DELETE /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b {}
+[Appium] Removing session cdf6cd08-f31a-4d23-b913-26ac8270fe8b from our master session list
+[ADB] com.sourcey.materialloginexample was successfully uninstalled
+[HTTP] <-- DELETE /wd/hub/session/cdf6cd08-f31a-4d23-b913-26ac8270fe8b 200 4377 ms - 76 

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="MobileTestSuite" time="130" tests="1" failures="0" errors="0">
+   <testsuite name="MobileTestSuite" tests="1" failures="0" errors="0" time="130" timestamp="2018-01-18 16:26:00" hostname="ENguli - LTTECH1550.safaricom.net" id="Test Suites/MobileTestSuite">
+      <properties>
+         <property name="deviceName" value="samsung SM-A720F 7.0"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\enguli\\git\\KatalonStudioRepo\\Reports\\MobileTestSuite\\20180118_162556"/>
+         <property name="logFiles" value="C:\\Users\\enguli\\git\\KatalonStudioRepo\\Reports\\MobileTestSuite\\20180118_162556\\appium.log, C:\\Users\\enguli\\git\\KatalonStudioRepo\\Reports\\MobileTestSuite\\20180118_162556\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ENguli - LTTECH1550.safaricom.net"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.2.0.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.7.1"/>
+         <property name="deviceModel" value="SM-A720F"/>
+         <property name="hostAddress" value="192.168.43.131"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="52107342b2c2839f"/>
+         <property name="deviceName" value="samsung SM-A720F 7.0"/>
+         <property name="deviceOSVersion" value="7.0"/>
+      </properties>
+      <testcase name="Test Cases/TC04" classname="Test Cases/TC04" status="PASSED">
+         <system-out><![CDATA[2018-01-18 16:26:00 - [TEST_CASE][PASSED] - Test Cases/TC04: Test Cases/TC04
+
+2018-01-18 16:26:00 - [TEST_STEP][PASSED] - startApplication: Started app at: 'D:\QA\APK\MaterialLoginExample.apk'
+
+2018-01-18 16:27:08 - [MESSAGE][PASSED] - Started app at: 'D:\QA\APK\MaterialLoginExample.apk'
+
+2018-01-18 16:27:08 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.widget.EditText0'
+
+2018-01-18 16:27:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-18 16:27:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.EditText0'
+
+2018-01-18 16:27:10 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-01-18 16:27:11 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-01-18 16:27:12 - [TEST_STEP][PASSED] - setText: Text 'elsiebet@yahoo.com' has been set to element 'Object Repository/android.widget.EditText0 (1)'
+
+2018-01-18 16:27:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-18 16:27:20 - [MESSAGE][PASSED] - Text 'elsiebet@yahoo.com' has been set to element 'Object Repository/android.widget.EditText0 (1)'
+
+2018-01-18 16:27:20 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.widget.EditText1'
+
+2018-01-18 16:27:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-18 16:27:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.EditText1'
+
+2018-01-18 16:27:22 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-01-18 16:27:24 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-01-18 16:27:24 - [TEST_STEP][PASSED] - setText: Text 'Test' has been set to element 'Object Repository/android.widget.EditText1 (1)'
+
+2018-01-18 16:27:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-18 16:27:32 - [MESSAGE][PASSED] - Text 'Test' has been set to element 'Object Repository/android.widget.EditText1 (1)'
+
+2018-01-18 16:27:32 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/android.widget.Button0 - LOGIN'
+
+2018-01-18 16:27:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-18 16:27:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button0 - LOGIN'
+
+2018-01-18 16:27:35 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Element 'Object Repository/android.widget.TextView1 - Hello world' not found
+
+2018-01-18 16:28:06 - [MESSAGE][WARNING] - Element 'Object Repository/android.widget.TextView1 - Hello world' not found
+
+2018-01-18 16:28:06 - [TEST_STEP][PASSED] - closeApplication: Close app successfully
+
+2018-01-18 16:28:10 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-01-18 16:26:00 - [TEST_SUITE][PASSED] - MobileTestSuite: Test Cases/TC04]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
