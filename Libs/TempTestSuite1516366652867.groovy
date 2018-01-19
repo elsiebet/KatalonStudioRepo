@@ -15,7 +15,17 @@ import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 
 
 def static runTestCase_0() {
-    TestCaseMain.runTestCase('Test Cases/TC04', new TestCaseBinding('Test Cases/TC04',  null), FailureHandling.STOP_ON_FAILURE)
+    TestCaseMain.runTestCase('Test Cases/TC01', new TestCaseBinding('Test Cases/TC01',  null), FailureHandling.STOP_ON_FAILURE)
+    
+}
+
+def static runTestCase_1() {
+    TestCaseMain.runTestCase('Test Cases/TC02', new TestCaseBinding('Test Cases/TC02',  null), FailureHandling.STOP_ON_FAILURE)
+    
+}
+
+def static runTestCase_2() {
+    TestCaseMain.runTestCase('Test Cases/TC03', new TestCaseBinding('Test Cases/TC03',  null), FailureHandling.STOP_ON_FAILURE)
     
 }
 
@@ -23,9 +33,9 @@ def static runTestCase_0() {
 Map<String, String> suiteProperties = new HashMap<String, String>();
 
 
-suiteProperties.put('id', 'Test Suites/MobileTestSuite')
+suiteProperties.put('id', 'Test Suites/AutomationTestSuite1')
 
-suiteProperties.put('name', 'MobileTestSuite')
+suiteProperties.put('name', 'AutomationTestSuite1')
 
 suiteProperties.put('description', '')
  
@@ -35,20 +45,20 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.m
 
 
 
-RunConfiguration.setExecutionSettingFile("C:\\Users\\enguli\\git\\KatalonStudioRepo\\Reports\\MobileTestSuite\\20180118_182142\\execution.properties")
+RunConfiguration.setExecutionSettingFile("C:\\Users\\enguli\\git\\KatalonStudioRepo\\Reports\\AutomationTestSuite1\\20180119_155732\\execution.properties")
 
 TestCaseMain.beforeStart()
 
-KeywordLogger.getInstance().startSuite('MobileTestSuite', suiteProperties)
+KeywordLogger.getInstance().startSuite('AutomationTestSuite1', suiteProperties)
 
-TestCaseMain.invokeStartSuite('Test Suites/MobileTestSuite')
+TestCaseMain.invokeStartSuite('Test Suites/AutomationTestSuite1')
 
-(0..0).each {
+(0..2).each {
     "runTestCase_${it}"()
 }
 
 DriverCleanerCollector.getInstance().cleanDrivers()
 
-TestCaseMain.invokeEndSuite('Test Suites/MobileTestSuite')
+TestCaseMain.invokeEndSuite('Test Suites/AutomationTestSuite1')
 
-KeywordLogger.getInstance().endSuite('MobileTestSuite', null)
+KeywordLogger.getInstance().endSuite('AutomationTestSuite1', null)

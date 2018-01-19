@@ -40,14 +40,12 @@ for (def row = 1; row <= findTestData('HRM_Login_Creds').getRowNumbers(); row++)
     //def String str=WebUI.getText('Page_OrangeHRM/span_Invalid credentials')
     WebUI.verifyTextPresent(findTestData('HRM_Login_Creds').getValue('Validation', row), false)
 
-   // CustomKeywords.'com.lisa.utilities.CheckElement.CheckElementContaintsString'(findTestObject('Page_OrangeHRM/span_Invalid credentials'), 
-       // findTestData('HRM_Login_Creds').getValue('Validation', row))
-
+    // CustomKeywords.'com.lisa.utilities.CheckElement.CheckElementContaintsString'(findTestObject('Page_OrangeHRM/span_Invalid credentials'), 
+    // findTestData('HRM_Login_Creds').getValue('Validation', row))
     //println(flag)
     // if (flag != true) {
     //     break
     // }
-	
     WebUI.closeBrowser()
 }
 
